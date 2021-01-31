@@ -18,10 +18,13 @@
             android:layout_centerInParent="true"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text=""
             tools:layout_editor_absoluteX="38dp"
             tools:layout_editor_absoluteY="76dp"
-            android:backgroundTint="@color/colorAccent" />
+            android:backgroundTint="@color/colorAccent"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            android:focusable="false" />
     </RelativeLayout>
 
 
